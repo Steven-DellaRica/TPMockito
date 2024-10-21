@@ -24,6 +24,8 @@ public class PlatServiceVersion2 implements IPlatService {
 
         // règle métier
 
+
+
         if (nomPlat.length() <= 5) {
             throw new PlatException("un plat doit avoir un nom de plus de 5 caractères");
         }
